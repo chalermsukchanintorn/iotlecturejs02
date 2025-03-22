@@ -3,6 +3,17 @@
 //------------------------------
 // function มี 4 ประเภทใหญ่
 // 1. no parameter, no return
-
+function work01( ){
+    console.log('Hello...')
+}
 
 // 2. have parameters, no return
+function work02(aa, bb, cc){
+    console.log(aa+bb+cc)
+}
+
+work01()
+work01()
+work02(10, 20, 30) //argument
+work02(100, 200, 300)
+work01()
